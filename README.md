@@ -1,6 +1,6 @@
 # 🏗 Product Certify - Sistema de Certificación Blockchain
 
-**Product Certify** es una aplicación descentralización (DApp) diseñada para garantizar la autenticidad y calidad de productos mediante el uso de la tecnología blockchain. Los fabricantes pueden registrar sus productos y, tras superar un proceso de evaluación técnica, obtener un **Certificado de Autenticidad en formato NFT (ERC-721)**.
+**Product Certify** es una aplicación descentralizada (DApp) diseñada para garantizar la autenticidad y calidad de productos mediante el uso de la tecnología blockchain. Los fabricantes pueden registrar sus productos y, tras superar un proceso de evaluación técnica, obtener un **Certificado de Autenticidad en formato NFT (ERC-721)**.
 
 ---
 
