@@ -17,15 +17,16 @@
 ### 1. Panel de Control (Dashboard)
 Aquí es donde comienza la interacción del usuario. El panel ofrece una visión general de la aplicación y permite conectar la billetera (MetaMask) para empezar a gestionar productos.
 
-> **[ ESPACIO PARA CAPTURA DE PANTALLA: PÁGINA PRINCIPAL / DASHBOARD ]**
+> **<img width="1211" height="626" alt="Pagina inicial" src="https://github.com/user-attachments/assets/9f6c6982-6c98-414c-a55d-ff90f684e72e" />**
 > *Muestra la interfaz inicial y el botón de conexión de billetera.*
+> **<img width="1200" height="374" alt="Inicial Pag" src="https://github.com/user-attachments/assets/a1f7ba1c-e5b8-4e0b-ba06-2170ac1fd32e" />**
 
 ---
 
 ### 2. Registro de Productos
 En esta sección, los usuarios o fabricantes pueden ingresar los datos técnicos de sus productos. El contrato inteligente almacena de forma segura el nombre, fabricante, año, modelo y número de serie.
 
-> **[ ESPACIO PARA CAPTURA DE PANTALLA: FORMULARIO DE REGISTRO ]**
+> **<img width="513" height="509" alt="Registro producto" src="https://github.com/user-attachments/assets/8ca35854-8fb9-4951-8de1-b01914fd2e32" />**
 > *Muestra los campos de entrada: Nombre del Producto, Fabricante, Año, etc.*
 
 **Funcionamiento Técnico:** Se utiliza la función `registerProduct` del contrato para crear una entrada única vinculada a la dirección de la billetera del usuario.
@@ -35,7 +36,7 @@ En esta sección, los usuarios o fabricantes pueden ingresar los datos técnicos
 ### 3. Cuestionario de Calidad y Certificación
 Para obtener un certificado oficial, el producto debe pasar por una evaluación. Si el usuario responde correctamente al cuestionario y obtiene un **puntaje mayor o igual a 60**, el sistema habilita la generación del NFT.
 
-> **[ ESPACIO PARA CAPTURA DE PANTALLA: SECCIÓN DE CUESTIONARIO O LISTA DE PRODUCTOS ]**
+> **<img width="1199" height="619" alt="Certificar producto" src="https://github.com/user-attachments/assets/e170a596-f085-4ab0-bc06-f09b99fe17ec" />**
 > *Muestra la lista de productos registrados y el botón para iniciar la certificación.*
 
 **Regla de Negocio:** 
@@ -47,10 +48,20 @@ Para obtener un certificado oficial, el producto debe pasar por una evaluación.
 ### 4. Certificados NFT (ERC-721)
 Una vez aprobado el cuestionario, se emite un NFT único que actúa como el certificado digital del producto. Este NFT contiene el número de serie y es inmutable, lo que permite verificar la propiedad y autenticidad en cualquier explorador de bloques.
 
-> **[ ESPACIO PARA CAPTURA DE PANTALLA: NFT CREADO / ÉXITO DE MINT ]**
+> **<img width="1211" height="620" alt="Generacion de NFT" src="https://github.com/user-attachments/assets/697aefa3-c2f4-4935-9cb4-530e3de48e3b" />**
 > *Muestra la confirmación del NFT generado y los detalles del certificado.*
 
 ---
+---
+### 5. Pruebas de transacciones
+Son los resultados de unas pruebas hechas en la red de Sepolia
+> **<img width="352" height="524" alt="Metamask de prueba" src="https://github.com/user-attachments/assets/17485b60-ff21-44d4-a21f-683a93f1c746" />**
+> *Costo de cada transaccion*
+
+> **<img width="355" height="571" alt="NFT generado" src="https://github.com/user-attachments/assets/e25522c1-2eb4-4d80-821c-da6ad735f0ad" />**
+> *NFT almacenado en la wallet del usuario*
+---
+
 
 ## 🛠 Stack Tecnológico
 
